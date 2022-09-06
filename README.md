@@ -9,6 +9,7 @@
 * Acontinuación procederemos a ejecutar el siguiente comando `docker build -t nombre del proyecto`
 
       > Este comando nos sirve principalmente para crear la imagen de docker.
+      > De igual forma en el apartado de nombre del proyecto ponemos `knote`
 
 * Ahora procederemos a verificar si la imagen se creo de manera correcta para lo cual ejecutaremos el siguiente comando `docker images`.
 
@@ -18,8 +19,19 @@
         --name=mongo: es la imagen a crear
         --network=nombre del proyecto: es la instancia del network al cual le asignamos el nombre del proyecto.
       
-* Por último la siguiente imágen representa las imagenes anteriormente creadas.
+### DOCKER-HUB
 
-    ![image](https://user-images.githubusercontent.com/65980001/188554884-28b6733b-b32b-472d-99cf-e7db1949a180.png)
+* Creamos un tag del proyecto con el siguiente comando `docker tag knote <username>/knote-js:1.0.0`
+ 
+* Cambiamos `<username>` por el usuario que nos registramos en dockerhub 
 
-## DOCKER-HUB
+* Acontinuación realizamos el push de la imagen con el comando `docker push <username>/knote-js:1.0.0`
+
+* Luego corremos nuestra base MongoDB con el comando `docker run --name=mongo --rm --network=nodekub mongo`
+
+* Y por último desplegamos la aplicación con el siguiente comando `docker run --name=nodekub --rm --network=nodekub -p 3000:3000 -e MONGO_URL=mongodb://mongo:27017/appdist chrissvera78/nodekub-js:1.0.0`
+
+Ahora las imagenes creadas anteriormente se reflejan en la siguiente imagen
+
+   ![image](https://user-images.githubusercontent.com/65980001/188557127-f397c297-0aef-4b63-b511-95a3df1a0ff4.png)
+
