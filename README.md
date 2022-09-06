@@ -34,3 +34,16 @@ Ahora las imagenes creadas anteriormente se reflejan en la siguiente imagen
 
    ![image](https://user-images.githubusercontent.com/65980001/188557127-f397c297-0aef-4b63-b511-95a3df1a0ff4.png)
 
+## MINIKUBE
+
+* minikube start para iniciar el contenedor de kubernets
+
+* minikube status comprobrar que esta perfectamente iniciado
+
+* crear los archivos.yaml para nuestro proyecto y para la base de datos en una carpeta dentro de nuestro codigo con cualquier nombre 
+
+* ejecutar el comando para crear los nimikubes de cada uno, dentro del codigo iniciamos con el comando: kubectl apply -f nombre de la carpeta con los .yml
+
+* kubectl get pods --watch para ver los pods generados apartir de los .yml
+
+
