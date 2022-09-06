@@ -12,10 +12,6 @@
 
 * Ahora procederemos a verificar si la imagen se creo de manera correcta para lo cual ejecutaremos el siguiente comando `docker images`.
 
-* Acontinuación nos vamos a docker y comprobaremos que se haya creado la imagen. 
-
-    ![image](https://user-images.githubusercontent.com/65980001/188553410-4714309a-4107-44ca-a480-1279861879cc.png)
-
 * Ahora crearemos una imagen de MongoDB para realizar la conexión correspondiente. Para lo cual ejecutaremos el siguiente comando: `docker run --name=mongo --rm --network=nombre del proyecto mongo`
     
       > La estructura de este comando es la siguiente: 
@@ -25,3 +21,5 @@
 * Por último la siguiente imágen representa las imagenes anteriormente creadas.
 
     ![image](https://user-images.githubusercontent.com/65980001/188554884-28b6733b-b32b-472d-99cf-e7db1949a180.png)
+
+## DOCKER-HUB
