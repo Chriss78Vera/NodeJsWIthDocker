@@ -42,6 +42,11 @@ Ahora las imagenes creadas anteriormente se reflejan en la siguiente imagen
 
 * crear los archivos.yaml para nuestro proyecto y para la base de datos en una carpeta dentro de nuestro codigo con cualquier nombre 
 
+    ![image](https://user-images.githubusercontent.com/65980001/188562529-a09c66c3-9ce9-497c-87e1-0a0911c1c8ad.png)
+
+    ![image](https://user-images.githubusercontent.com/65980001/188563004-af30d1ce-2e41-4e16-8892-8feb702e956f.png) 
+
+
 * ejecutar el comando para crear los nimikubes de cada uno, dentro del codigo iniciamos con el comando: kubectl apply -f nombre de la carpeta con los .yml
 
 * kubectl get pods --watch para ver los pods generados apartir de los .yml
