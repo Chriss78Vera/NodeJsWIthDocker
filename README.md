@@ -52,3 +52,7 @@ Ahora las imagenes creadas anteriormente se reflejan en la siguiente imagen
 * kubectl get pods --watch para ver los pods generados apartir de los .yml
 
 
+# INTEGRANTES
+- Lizbeth García
+- Kevin Veliz
+- Christopher Vera
