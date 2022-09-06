@@ -22,4 +22,6 @@
         --name=mongo: es la imagen a crear
         --network=nombre del proyecto: es la instancia del network al cual le asignamos el nombre del proyecto.
       
-      
+* Por último la siguiente imágen representa las imagenes anteriormente creadas.
+
+    ![image](https://user-images.githubusercontent.com/65980001/188554884-28b6733b-b32b-472d-99cf-e7db1949a180.png)
