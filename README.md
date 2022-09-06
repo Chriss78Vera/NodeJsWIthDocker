@@ -6,14 +6,13 @@
 
       > Esta estructura nos sirve para crear una imagen de node, con una versión correspondiente.
 
-* Acontinuación procederemos a ejecutar el siguiente comando `docker build -t nombre del proyecto`
+* Acontinuación procederemos a ejecutar el siguiente comando `docker build -t knote`
 
       > Este comando nos sirve principalmente para crear la imagen de docker.
-      > De igual forma en el apartado de nombre del proyecto ponemos `knote`
 
 * Ahora procederemos a verificar si la imagen se creo de manera correcta para lo cual ejecutaremos el siguiente comando `docker images`.
 
-* Ahora crearemos una imagen de MongoDB para realizar la conexión correspondiente. Para lo cual ejecutaremos el siguiente comando: `docker run --name=mongo --rm --network=nombre del proyecto mongo`
+* Ahora crearemos una imagen de MongoDB para realizar la conexión correspondiente. Para lo cual ejecutaremos el siguiente comando: `docker run --name=mongo --rm --network=knote mongo`
     
       > La estructura de este comando es la siguiente: 
         --name=mongo: es la imagen a crear
